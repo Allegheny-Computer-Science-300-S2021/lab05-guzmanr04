@@ -1,0 +1,184 @@
+########################################
+# Program: needle
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20210405-184900-0741-87686679-p1m.asequence
+#    -bsequence emboss_needle-I20210405-184900-0741-87686679-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A_chicken_Viet_Nam_10_2005_(H5N1)_segment_4
+# 2: A_China_GD01_2006_(H5N1)_segment_4
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1776
+# Identity:    1690/1776 (95.2%)
+# Similarity:  1690/1776 (95.2%)
+# Gaps:          45/1776 ( 2.5%)
+# Score: 9435.0
+#
+#
+#=======================================
+
+A_chicken_Vie      1 -------------------------AAAATGGAGAAAATAGTGCTTCTTC     25
+                                              |||||||||||||||||||||||||
+A_China_GD01_      1 AGCAAAAGCAGGGGTTCAATCTGTCAAAATGGAGAAAATAGTGCTTCTTC     50
+
+A_chicken_Vie     26 TTGCAATAGTCAGCCTTGTCAAAAGCGATCAGATTTGCATTGGTTACCAT     75
+                     |||||||||||||||||||.|||||.||||||||||||||||||||||||
+A_China_GD01_     51 TTGCAATAGTCAGCCTTGTTAAAAGTGATCAGATTTGCATTGGTTACCAT    100
+
+A_chicken_Vie     76 GCAAACAACTCGACAGAGCAGGTTGACACAATAATGGAAAAGAACGTTAC    125
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_    101 GCAAACAACTCGACAGAGCAGGTTGACACAATAATGGAAAAGAACGTTAC    150
+
+A_chicken_Vie    126 TGTTACACATGCCCAAGACATACTGGAAAAGACACACAACGGAAAGCTCT    175
+                     ||||||||||||||||||||||||||||||||||||||||||.|||||||
+A_China_GD01_    151 TGTTACACATGCCCAAGACATACTGGAAAAGACACACAACGGGAAGCTCT    200
+
+A_chicken_Vie    176 GCGATCTAGATGGAGTGAAGCCTCTGATTTTAAAAGATTGTAGTGTAGCT    225
+                     |||||||||||||||||||||||||||||||||.||||||||||||||||
+A_China_GD01_    201 GCGATCTAGATGGAGTGAAGCCTCTGATTTTAAGAGATTGTAGTGTAGCT    250
+
+A_chicken_Vie    226 GGATGGCTCCTCGGAAACCCAATGTGTGACGAATTCATCAATGTGCCGGA    275
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_    251 GGATGGCTCCTCGGAAACCCAATGTGTGACGAATTCATCAATGTGCCGGA    300
+
+A_chicken_Vie    276 ATGGTCTTACATAGTGGAGAAGGCCAATCCAGCCAATGACCTCTGTTACC    325
+                     |||||||||||||||||||||||||||.||||||||||||||||||||||
+A_China_GD01_    301 ATGGTCTTACATAGTGGAGAAGGCCAACCCAGCCAATGACCTCTGTTACC    350
+
+A_chicken_Vie    326 CAGGGAATTTCAACGACTATGAAGAATTGAAACACCTATTGAGCAGAATA    375
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+A_China_GD01_    351 CAGGGAATTTCAACGACTATGAAGAACTGAAACACCTATTGAGCAGAATA    400
+
+A_chicken_Vie    376 AACCATTTTGAGAAAATACAGATCATCCCCAAAAGTTCTTGGTCCGATCA    425
+                     |||||||||||||||||.|||||||||.||||||||||||||||||||||
+A_China_GD01_    401 AACCATTTTGAGAAAATTCAGATCATCTCCAAAAGTTCTTGGTCCGATCA    450
+
+A_chicken_Vie    426 TGAAGCCTCATTAGGGGTGAGCTCAGCATGTCCATACCAGGGAAGTTCCT    475
+                     |||||||||||.||||||||||||||||||||||||||||||||...|||
+A_China_GD01_    451 TGAAGCCTCATCAGGGGTGAGCTCAGCATGTCCATACCAGGGAACGCCCT    500
+
+A_chicken_Vie    476 CCTTTTTCAGAAATGTGGTATGGCTTATCAAAAAGAACAATGCATACCCA    525
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+A_China_GD01_    501 CCTTTTTCAGAAATGTGGTATGGCTTATCAAAAAGAACAATACATACCCA    550
+
+A_chicken_Vie    526 ACAATAAAGAGAAGCTACAATAATACCAACCAAGAAGATCTCTTGGTACT    575
+                     ||||||||||||||||||||||||||||||||.||||||||.|||.||||
+A_China_GD01_    551 ACAATAAAGAGAAGCTACAATAATACCAACCAGGAAGATCTTTTGATACT    600
+
+A_chicken_Vie    576 GTGGGGGATTCACCATCCTAATGATGAGGCAGAGCAGACAGGGCTCTATC    625
+                     ||||||.|||||.|||.|||||.|||.|||||||||||||..||||||||
+A_China_GD01_    601 GTGGGGAATTCATCATTCTAATAATGCGGCAGAGCAGACAAAGCTCTATC    650
+
+A_chicken_Vie    626 AAAACCCAACCACCTATATTTCCATTGGGACATCAACACTAAACCAGAGA    675
+                     |||||||||||||||||||||||.|||||||||||||||||||||.||||
+A_China_GD01_    651 AAAACCCAACCACCTATATTTCCGTTGGGACATCAACACTAAACCTGAGA    700
+
+A_chicken_Vie    676 TTGGTACCAAAAATAGCCACTAGATCCAAAGTAAACGGGCAAAGTGGAAG    725
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+A_China_GD01_    701 TTGGTACCAAAAATAGCTACTAGATCCAAAGTAAACGGGCAAAGTGGAAG    750
+
+A_chicken_Vie    726 GATAGATTTCTTCTGGACAATTTTAAAACCGAATGATGCAATCAATTTTG    775
+                     |||.|||||||||||||||||||||||||||||||||||||||||.||.|
+A_China_GD01_    751 GATGGATTTCTTCTGGACAATTTTAAAACCGAATGATGCAATCAACTTCG    800
+
+A_chicken_Vie    776 AGAGTAATGGAAATTTCATTGCTCCAGAATATGCATACAAAATTGTCAAG    825
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_    801 AGAGTAATGGAAATTTCATTGCTCCAGAATATGCATACAAAATTGTCAAG    850
+
+A_chicken_Vie    826 AAAGGAGACTCAGCAATTATGAAAAGTGAAGTGGAATATGGTAACTGCAA    875
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_    851 AAAGGGGACTCAGCAATTATGAAAAGTGAAGTGGAATATGGTAACTGCAA    900
+
+A_chicken_Vie    876 CACCAAGTGTCAAACTCCAATGGGGGCGATAAACTCTAGTATGCCATTCC    925
+                     |||||||||||||||||||||.||||||||||||||||||||||||||||
+A_China_GD01_    901 CACCAAGTGTCAAACTCCAATAGGGGCGATAAACTCTAGTATGCCATTCC    950
+
+A_chicken_Vie    926 ACAACATACACCCTCTCACCATCGGGGAATGTCCCAAATATGTGAAATCA    975
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+A_China_GD01_    951 ACAACATACACCCTCTCACCATCGGGGAATGCCCCAAATATGTGAAATCA   1000
+
+A_chicken_Vie    976 AACAAATTAGTCCTTGCGACTGGGCTCAGAAATAGCCCTCAAAGAGAGAG   1025
+                     |||||||||||||||||||||||||||||||||||.||||.|||||||||
+A_China_GD01_   1001 AACAAATTAGTCCTTGCGACTGGGCTCAGAAATAGTCCTCTAAGAGAGAG   1050
+
+A_chicken_Vie   1026 AAGAAGAAAAAGAGGACTATTTGGAGCTATAGCAGGTTTTATAGAGGGAG   1075
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1051 AAGAAGAAAAAGAGGACTATTTGGAGCTATAGCAGGTTTTATAGAGGGAG   1100
+
+A_chicken_Vie   1076 GATGGCAGGGAATGGTAGATGGTTGGTATGGGTACCACCATAGCAATGAG   1125
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1101 GATGGCAGGGAATGGTAGATGGTTGGTATGGGTACCACCATAGCAATGAG   1150
+
+A_chicken_Vie   1126 CAGGGGAGTGGGTACGCTGCAGACAAAGAATCCACTCAAAAGGCAATAGA   1175
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1151 CAGGGGAGTGGGTACGCTGCAGACAAAGAATCCACTCAAAAGGCAATAGA   1200
+
+A_chicken_Vie   1176 TGGAGTCACCAATAAGGTCAACTCGATCATTGACAAAATGAACACTCAGT   1225
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1201 TGGAGTCACCAATAAGGTCAACTCGATCATTGACAAAATGAACACTCAGT   1250
+
+A_chicken_Vie   1226 TTGAGGCCGTTGGAAGGGAATTTAATAACTTAGAAAGGAGAATAGAGAAT   1275
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1251 TTGAGGCCGTTGGAAGGGAATTTAATAACTTAGAAAGGAGAATAGAGAAT   1300
+
+A_chicken_Vie   1276 TTAAACAAGAAGATGGAAGACGGATTCCTAGATGTCTGGACTTATAATGC   1325
+                     |||||||||||.||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1301 TTAAACAAGAAAATGGAAGACGGATTCCTAGATGTCTGGACTTATAATGC   1350
+
+A_chicken_Vie   1326 TGAACTTCTGGTTCTCATGGAAAATGAGAGAACTCTAGACTTCCATGACT   1375
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1351 TGAACTTCTGGTTCTCATGGAAAATGAGAGAACTCTAGACTTCCATGACT   1400
+
+A_chicken_Vie   1376 CAAATGTCAAGAACCTTTACGACAAGGTCCGACTACAGCTTAGGGATAAT   1425
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1401 CAAATGTCAAGAACCTTTACGACAAGGTCCGACTACAGCTTAGGGATAAT   1450
+
+A_chicken_Vie   1426 GCAAAAGAGCTGGGTAACGGTTGTTTCGAGTTCTATCACAAATGTGATAA   1475
+                     |||||.||.|||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1451 GCAAAGGAACTGGGTAACGGTTGTTTCGAGTTCTATCACAAATGTGATAA   1500
+
+A_chicken_Vie   1476 CGAATGTATGGAAAGTGTAAGAAACGGAACGTATGACTACCCGCAGTATT   1525
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1501 TGAATGTATGGAAAGTGTAAGAAACGGAACGTATGACTACCCGCAGTATT   1550
+
+A_chicken_Vie   1526 CAGAAGAAGCAAGATTAAAAAGAGAGGAAATAAGTGGAGTAAAATTGGAA   1575
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1551 CAGAAGAAGCAAGATTAAAAAGAGAGGAAATAAGTGGAGTAAAATTGGAA   1600
+
+A_chicken_Vie   1576 TCAATAGGAACTTACCAAATACTGTCAATTTATTCAACAGTGGCGAGTTC   1625
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+A_China_GD01_   1601 TCAATAGGAACTTACCAAATACTGTCAATTTATTCAACAGTTGCGAGTTC   1650
+
+A_chicken_Vie   1626 CCTAGTACTGGCAATCATGGTGGCTGGTCTATCTTTATGGATGTGCTCCA   1675
+                     .||||.||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1651 TCTAGCACTGGCAATCATGGTGGCTGGTCTATCTTTATGGATGTGCTCCA   1700
+
+A_chicken_Vie   1676 ATGGGTCGTTACAATGCAGAATTTGCATTTAAATTTGTGAGTTCAGATTG   1725
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A_China_GD01_   1701 ATGGGTCGTTACAATGCAGAATTTGCATTTAAATTTGTGAGTTCAGATTG   1750
+
+A_chicken_Vie   1726 TAGTTA--------------------   1731
+                     ||||||
+A_China_GD01_   1751 TAGTTAAAAACACCCTTGTTTCTACT   1776
+
+
+#---------------------------------------
+#---------------------------------------
